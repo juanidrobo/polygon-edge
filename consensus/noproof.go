@@ -3,8 +3,8 @@ package consensus
 import (
 	"context"
 
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/juanidrobo/polygon-edge/state"
+	"github.com/juanidrobo/polygon-edge/types"
 )
 
 // NoProof is a consensus algorithm that validates everything

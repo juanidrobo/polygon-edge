@@ -3,7 +3,7 @@ package ibft
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/helper/common"
+	"github.com/juanidrobo/polygon-edge/helper/common"
 )
 
 // Define the type of the IBFT consensus

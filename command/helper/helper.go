@@ -9,17 +9,17 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/command"
-	ibftOp "github.com/0xPolygon/polygon-edge/consensus/ibft/proto"
-	"github.com/0xPolygon/polygon-edge/server"
-	"github.com/0xPolygon/polygon-edge/server/proto"
-	txpoolOp "github.com/0xPolygon/polygon-edge/txpool/proto"
+	"github.com/juanidrobo/polygon-edge/chain"
+	"github.com/juanidrobo/polygon-edge/command"
+	ibftOp "github.com/juanidrobo/polygon-edge/consensus/ibft/proto"
+	"github.com/juanidrobo/polygon-edge/server"
+	"github.com/juanidrobo/polygon-edge/server/proto"
+	txpoolOp "github.com/juanidrobo/polygon-edge/txpool/proto"
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/0xPolygon/polygon-edge/helper/common"
+	"github.com/juanidrobo/polygon-edge/helper/common"
 	"github.com/ryanuber/columnize"
 )
 

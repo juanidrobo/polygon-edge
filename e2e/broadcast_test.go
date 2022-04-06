@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/e2e/framework"
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/juanidrobo/polygon-edge/crypto"
+	"github.com/juanidrobo/polygon-edge/e2e/framework"
+	"github.com/juanidrobo/polygon-edge/helper/tests"
+	"github.com/juanidrobo/polygon-edge/types"
 	"github.com/stretchr/testify/assert"
 )
 

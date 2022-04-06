@@ -2,8 +2,8 @@ package txpool
 
 import (
 	"fmt"
-	"github.com/0xPolygon/polygon-edge/txpool/proto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/juanidrobo/polygon-edge/txpool/proto"
+	"github.com/juanidrobo/polygon-edge/types"
 	"github.com/google/uuid"
 	"github.com/hashicorp/go-hclog"
 	"sync"

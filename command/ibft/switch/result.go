@@ -3,9 +3,9 @@ package ibftswitch
 import (
 	"bytes"
 	"fmt"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft"
-	"github.com/0xPolygon/polygon-edge/helper/common"
+	"github.com/juanidrobo/polygon-edge/command/helper"
+	"github.com/juanidrobo/polygon-edge/consensus/ibft"
+	"github.com/juanidrobo/polygon-edge/helper/common"
 )
 
 type IBFTSwitchResult struct {

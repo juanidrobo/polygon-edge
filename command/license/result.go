@@ -3,7 +3,7 @@ package license
 import (
 	"bytes"
 	"fmt"
-	"github.com/0xPolygon/polygon-edge/licenses"
+	"github.com/juanidrobo/polygon-edge/licenses"
 )
 
 type LicenseResult struct {

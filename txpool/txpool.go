@@ -9,12 +9,12 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"google.golang.org/grpc"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/txpool/proto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/juanidrobo/polygon-edge/blockchain"
+	"github.com/juanidrobo/polygon-edge/chain"
+	"github.com/juanidrobo/polygon-edge/network"
+	"github.com/juanidrobo/polygon-edge/state"
+	"github.com/juanidrobo/polygon-edge/txpool/proto"
+	"github.com/juanidrobo/polygon-edge/types"
 )
 
 const (

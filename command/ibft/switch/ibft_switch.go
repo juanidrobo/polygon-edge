@@ -2,7 +2,7 @@ package ibftswitch
 
 import (
 	"fmt"
-	"github.com/0xPolygon/polygon-edge/command"
+	"github.com/juanidrobo/polygon-edge/command"
 	"github.com/spf13/cobra"
 )
 

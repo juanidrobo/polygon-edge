@@ -5,9 +5,9 @@ import (
 	"golang.org/x/crypto/ripemd160" //nolint:staticcheck
 	"math/big"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
+	"github.com/juanidrobo/polygon-edge/chain"
+	"github.com/juanidrobo/polygon-edge/crypto"
+	"github.com/juanidrobo/polygon-edge/helper/keccak"
 )
 
 type ecrecover struct {

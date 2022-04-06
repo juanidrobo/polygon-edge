@@ -1,7 +1,7 @@
 package proto
 
 import (
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/juanidrobo/polygon-edge/types"
 	"google.golang.org/protobuf/proto"
 )
 

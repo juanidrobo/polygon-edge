@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/e2e/framework"
-	"github.com/0xPolygon/polygon-edge/jsonrpc"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/juanidrobo/polygon-edge/e2e/framework"
+	"github.com/juanidrobo/polygon-edge/jsonrpc"
+	"github.com/juanidrobo/polygon-edge/types"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 )

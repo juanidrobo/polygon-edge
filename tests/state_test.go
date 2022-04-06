@@ -10,12 +10,12 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/state/runtime/evm"
-	"github.com/0xPolygon/polygon-edge/state/runtime/precompiled"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/juanidrobo/polygon-edge/chain"
+	"github.com/juanidrobo/polygon-edge/helper/hex"
+	"github.com/juanidrobo/polygon-edge/state"
+	"github.com/juanidrobo/polygon-edge/state/runtime/evm"
+	"github.com/juanidrobo/polygon-edge/state/runtime/precompiled"
+	"github.com/juanidrobo/polygon-edge/types"
 )
 
 var (

@@ -1,8 +1,8 @@
 package consensus
 
 import (
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/types/buildroot"
+	"github.com/juanidrobo/polygon-edge/types"
+	"github.com/juanidrobo/polygon-edge/types/buildroot"
 )
 
 // BuildBlockParams are parameters passed into the BuildBlock helper method

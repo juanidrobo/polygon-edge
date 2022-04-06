@@ -2,8 +2,8 @@ package main
 
 import (
 	_ "embed"
-	"github.com/0xPolygon/polygon-edge/command/root"
-	"github.com/0xPolygon/polygon-edge/licenses"
+	"github.com/juanidrobo/polygon-edge/command/root"
+	"github.com/juanidrobo/polygon-edge/licenses"
 )
 
 var (

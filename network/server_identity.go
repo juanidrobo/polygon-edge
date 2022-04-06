@@ -1,11 +1,11 @@
 package network
 
 import (
-	"github.com/0xPolygon/polygon-edge/network/common"
-	peerEvent "github.com/0xPolygon/polygon-edge/network/event"
-	"github.com/0xPolygon/polygon-edge/network/grpc"
-	"github.com/0xPolygon/polygon-edge/network/identity"
-	"github.com/0xPolygon/polygon-edge/network/proto"
+	"github.com/juanidrobo/polygon-edge/network/common"
+	peerEvent "github.com/juanidrobo/polygon-edge/network/event"
+	"github.com/juanidrobo/polygon-edge/network/grpc"
+	"github.com/juanidrobo/polygon-edge/network/identity"
+	"github.com/juanidrobo/polygon-edge/network/proto"
 	"github.com/libp2p/go-libp2p-core/network"
 	"github.com/libp2p/go-libp2p-core/peer"
 	rawGrpc "google.golang.org/grpc"

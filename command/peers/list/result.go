@@ -3,8 +3,8 @@ package list
 import (
 	"bytes"
 	"fmt"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/server/proto"
+	"github.com/juanidrobo/polygon-edge/command/helper"
+	"github.com/juanidrobo/polygon-edge/server/proto"
 )
 
 type PeersListResult struct {

@@ -9,13 +9,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/command/loadbot/generator"
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	txpoolOp "github.com/0xPolygon/polygon-edge/txpool/proto"
+	"github.com/juanidrobo/polygon-edge/command/loadbot/generator"
+	"github.com/juanidrobo/polygon-edge/helper/tests"
+	txpoolOp "github.com/juanidrobo/polygon-edge/txpool/proto"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/umbracle/go-web3/jsonrpc"
 
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/juanidrobo/polygon-edge/types"
 	"github.com/umbracle/go-web3"
 )
 

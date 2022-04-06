@@ -2,16 +2,16 @@ package e2e
 
 import (
 	"context"
-	"github.com/0xPolygon/polygon-edge/command"
+	"github.com/juanidrobo/polygon-edge/command"
 	"math/big"
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/e2e/framework"
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	txpoolOp "github.com/0xPolygon/polygon-edge/txpool/proto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/juanidrobo/polygon-edge/crypto"
+	"github.com/juanidrobo/polygon-edge/e2e/framework"
+	"github.com/juanidrobo/polygon-edge/helper/tests"
+	txpoolOp "github.com/juanidrobo/polygon-edge/txpool/proto"
+	"github.com/juanidrobo/polygon-edge/types"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/stretchr/testify/assert"
 )

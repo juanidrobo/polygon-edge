@@ -3,8 +3,8 @@ package subscribe
 import (
 	"bytes"
 	"fmt"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	txpoolProto "github.com/0xPolygon/polygon-edge/txpool/proto"
+	"github.com/juanidrobo/polygon-edge/command/helper"
+	txpoolProto "github.com/juanidrobo/polygon-edge/txpool/proto"
 )
 
 type TxPoolEventResult struct {

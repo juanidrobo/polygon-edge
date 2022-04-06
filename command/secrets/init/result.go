@@ -3,8 +3,8 @@ package init
 import (
 	"bytes"
 	"fmt"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/juanidrobo/polygon-edge/command/helper"
+	"github.com/juanidrobo/polygon-edge/types"
 )
 
 type SecretsInitResult struct {

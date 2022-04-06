@@ -3,12 +3,12 @@ package ibftswitch
 import (
 	"errors"
 	"fmt"
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft"
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/juanidrobo/polygon-edge/chain"
+	"github.com/juanidrobo/polygon-edge/command"
+	"github.com/juanidrobo/polygon-edge/command/helper"
+	"github.com/juanidrobo/polygon-edge/consensus/ibft"
+	"github.com/juanidrobo/polygon-edge/helper/common"
+	"github.com/juanidrobo/polygon-edge/types"
 	"os"
 )
 

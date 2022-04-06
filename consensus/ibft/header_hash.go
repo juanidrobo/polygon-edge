@@ -1,8 +1,8 @@
 package ibft
 
 import (
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/juanidrobo/polygon-edge/helper/keccak"
+	"github.com/juanidrobo/polygon-edge/types"
 	"github.com/umbracle/fastrlp"
 )
 

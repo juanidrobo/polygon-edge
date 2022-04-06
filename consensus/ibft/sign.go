@@ -4,11 +4,11 @@ import (
 	"crypto/ecdsa"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/proto"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/juanidrobo/polygon-edge/consensus/ibft/proto"
+	"github.com/juanidrobo/polygon-edge/crypto"
+	"github.com/juanidrobo/polygon-edge/helper/hex"
+	"github.com/juanidrobo/polygon-edge/helper/keccak"
+	"github.com/juanidrobo/polygon-edge/types"
 	"github.com/umbracle/fastrlp"
 )
 

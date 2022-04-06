@@ -3,7 +3,7 @@ package jsonrpc
 import (
 	"errors"
 	"fmt"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
+	"github.com/juanidrobo/polygon-edge/state/runtime"
 	"github.com/umbracle/go-web3/abi"
 )
 

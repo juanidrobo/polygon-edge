@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/helper/keystore"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/juanidrobo/polygon-edge/helper/hex"
+	"github.com/juanidrobo/polygon-edge/helper/keystore"
+	"github.com/juanidrobo/polygon-edge/secrets"
+	"github.com/juanidrobo/polygon-edge/types"
 	"github.com/btcsuite/btcd/btcec"
 	"golang.org/x/crypto/sha3"
 

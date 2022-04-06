@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/consensus"
-	"github.com/0xPolygon/polygon-edge/helper/progress"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/txpool"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/juanidrobo/polygon-edge/blockchain"
+	"github.com/juanidrobo/polygon-edge/consensus"
+	"github.com/juanidrobo/polygon-edge/helper/progress"
+	"github.com/juanidrobo/polygon-edge/state"
+	"github.com/juanidrobo/polygon-edge/txpool"
+	"github.com/juanidrobo/polygon-edge/types"
 	"github.com/hashicorp/go-hclog"
 )
 

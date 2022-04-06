@@ -16,8 +16,7 @@ builds:
     env:
       - CC=o64-clang
       - CXX=o64-clang++
-    ldflags:
-      -s -w -X 'github.com/0xPolygon/polygon-edge/versioning.Version=v{{ .Version }}'
+    ldflags: -s -w -X 'github.com/juanidrobo/polygon-edge/versioning.Version=v{{ .Version }}'
 
   - id: darwin-arm64
     main: ./main.go
@@ -29,8 +28,7 @@ builds:
     env:
       - CC=oa64-clang
       - CXX=oa64-clang++
-    ldflags:
-      -s -w -X 'github.com/0xPolygon/polygon-edge/versioning.Version=v{{ .Version }}'
+    ldflags: -s -w -X 'github.com/juanidrobo/polygon-edge/versioning.Version=v{{ .Version }}'
 
   - id: linux-amd64
     main: ./main.go
@@ -44,7 +42,7 @@ builds:
       - CXX=g++
     ldflags:
       # We need to build a static binary because we are building in a glibc based system and running in a musl container
-      -s -w -linkmode external -extldflags "-static" -X 'github.com/0xPolygon/polygon-edge/versioning.Version=v{{ .Version }}'
+      -s -w -linkmode external -extldflags "-static" -X 'github.com/juanidrobo/polygon-edge/versioning.Version=v{{ .Version }}'
 
   - id: linux-arm64
     main: ./main.go
@@ -58,16 +56,15 @@ builds:
       - CXX=aarch64-linux-gnu-g++
     ldflags:
       # We need to build a static binary because we are building in a glibc based system and running in a musl container
-      -s -w -linkmode external -extldflags "-static" -X 'github.com/0xPolygon/polygon-edge/versioning.Version=v{{ .Version }}'
+      -s -w -linkmode external -extldflags "-static" -X 'github.com/juanidrobo/polygon-edge/versioning.Version=v{{ .Version }}'
 
 archives:
-  -
-    files:
-    - LICENSE
-    - README.md
+  - files:
+      - LICENSE
+      - README.md
 
 #nfpms:
-#  - vendor: 0xPolygon
+#  - vendor: juanidrobo
 #    homepage: https://polygon.technology
 #    maintainer: Polygon Edge Team <edge@polygon.technology>
 #    description:  A Framework for Building Ethereum-compatible Blockchain Networks
@@ -89,11 +86,11 @@ archives:
 #          amd64: x86_64
 
 snapshot:
-  name_template: "{{ .Tag }}.next"
+  name_template: '{{ .Tag }}.next'
 
 dockers:
   - image_templates:
-      - 0xpolygon/{{ .ProjectName }}:{{ .Version }}-amd64
+      - juanidrobo/{{ .ProjectName }}:{{ .Version }}-amd64
     dockerfile: Dockerfile.release
     use: buildx
     goarch: amd64
@@ -104,7 +101,7 @@ dockers:
     skip_push: false
 
   - image_templates:
-      - 0xpolygon/{{ .ProjectName }}:{{ .Version }}-arm64
+      - juanidrobo/{{ .ProjectName }}:{{ .Version }}-arm64
     dockerfile: Dockerfile.release
     use: buildx
     goarch: arm64
@@ -115,14 +112,14 @@ dockers:
     skip_push: false
 
 docker_manifests:
-  - name_template: 0xpolygon/{{ .ProjectName }}:{{ .Version }}
+  - name_template: juanidrobo/{{ .ProjectName }}:{{ .Version }}
     image_templates:
-      - 0xpolygon/{{ .ProjectName }}:{{ .Version }}-amd64
-      - 0xpolygon/{{ .ProjectName }}:{{ .Version }}-arm64
+      - juanidrobo/{{ .ProjectName }}:{{ .Version }}-amd64
+      - juanidrobo/{{ .ProjectName }}:{{ .Version }}-arm64
     skip_push: false
 
-  - name_template: 0xpolygon/{{ .ProjectName }}:latest
+  - name_template: juanidrobo/{{ .ProjectName }}:latest
     image_templates:
-      - 0xpolygon/{{ .ProjectName }}:{{ .Version }}-amd64
-      - 0xpolygon/{{ .ProjectName }}:{{ .Version }}-arm64
+      - juanidrobo/{{ .ProjectName }}:{{ .Version }}-amd64
+      - juanidrobo/{{ .ProjectName }}:{{ .Version }}-arm64
     skip_push: false
